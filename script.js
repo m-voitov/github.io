@@ -28,7 +28,7 @@ function drawWatch(){
     circle = new Path2D();
     circle.arc(R, R, R, 0, 2 * Math.PI);
     context.stroke(circle);
-    /*for(d = 0; d < 60; ++d) {
+    for(d = 0; d < 60; ++d) {
         angle = (d / 60) * (2 * Math.PI);
         drawLine(angle, 0.9, 1,
             d % 5 == 0 ? "black" : "rgba(0, 0, 0, 0.5)", 1);
@@ -46,7 +46,7 @@ function drawWatch(){
     drawLine(secondsAngle, 0, 0.95, "red", 2);
     drawLine(minutesAngle, 0, 0.75, "black", 5);
     drawLine(hoursAngle, 0, 0.5, "black", 10);
-    setTimeout(drawWatch, 1000);*/
+    setTimeout(drawWatch, 1000);
 
 }
 
